@@ -1,2 +1,2 @@
-var element = document.querySelector('div.feedmain');
+var element = document.querySelector(".myimages");
 element.parentElement.removeChild(element);
