@@ -1,0 +1,2 @@
+# Myfirstextension
+Mozilla Addon Development 
