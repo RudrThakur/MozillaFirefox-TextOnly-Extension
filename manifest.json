@@ -14,9 +14,9 @@
     "https://ajax.googleapis.com/"
   ]
   
-  "content_scripts": [
+  "content_scripts": {
     
         "matches": "http:http://photobucket.com/",
         "js": "/content_script.js"
-    ]
+        }
 }
