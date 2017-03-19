@@ -1,0 +1,24 @@
+{
+    "name": "Textifier",
+    "description": "This extension disables loading of all the images on the current ebpage",
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+            "strict_min_version": "52.0a1"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://photobucket.com/*"
+            ],
+            "js": [
+                "/content_script.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
